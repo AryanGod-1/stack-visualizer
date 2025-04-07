@@ -144,7 +144,7 @@
     color: #555;
   }
   
-  /* Mobile responsiveness */
+  /* Things i gotta do for mobile responsiveness lol */
   @media screen and (max-width: 768px) {
     .main {
       flex-direction: column;

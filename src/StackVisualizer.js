@@ -55,14 +55,16 @@ function StackVisualizer() {
 
   return (
     <div className="container">
-      <div className="header">STACK ARGO </div>
+      <div className="header">STACK </div>
+      <h4 style={{ textAlign: 'left' }}>A stack is a data structure that follows the "last in, first out" (LIFO) principle, meaning the last item added is the first one to be removed. It operates with key operations like push (adding an item) and pop (removing an item). A top pointer is used to keep track of the most recently added item in the stack.
 
+      </h4>
       <div className="controls">
         <input
           type="text"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
-          placeholder="Enter value"
+          placeholder="Enter item ;)"
         />
         <button onClick={handlePush}>Push</button>
         <button onClick={handlePop}>Pop</button>
